@@ -6,3 +6,5 @@
 -- portmanteauGen.py: in progress script to generate portmanteaus that obey English phonotactics, using the CMU dictionary and a G2P library
 
 -- codeSnippets.py: some useful code for reuse - dijkstra's algorithm (plus bidirectional version) quickXOR for range of numbers
+
+
