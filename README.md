@@ -5,6 +5,10 @@
 
 -- portmanteauGen.py: in progress script to generate portmanteaus that obey English phonotactics, using the CMU dictionary and a G2P library
 
--- codeSnippets.py: some useful code for reuse - dijkstra's algorithm (plus bidirectional version) quickXOR for range of numbers
+-- dijkstra.py: dijkstra's algorithm (plus bidirectional version) 
 
+-- quickXOR.py: a neat speed-up for XORing sequential runs of numbers
 
+-- textGen.py: a simple script for generating text based off of ngrams
+
+-- ngrams.py: calculates ngrams, surprisal etc

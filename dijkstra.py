@@ -3,7 +3,6 @@
 '''
 -- dijkstra - implementation of Dijkstra's shortest path algorithm
 -- dijkstraBidrectional - implementation of Dijkstra's shortest path algorithm, uses bidirectional search to speed up
--- mod4Bits and quickXOR - faster XOR for a run of sequential numbers
 '''
 
 from collections import defaultdict
@@ -39,6 +38,7 @@ def dijkstra(graph, nodes):
         heapq.heapify(unvisited)
 
     return shortestPath
+
 
 def dijkstraBidirectional(graph, nodes, endPoint):
 
@@ -103,11 +103,4 @@ def dijkstraBidirectional(graph, nodes, endPoint):
             heapq.heapify(bUnvisited)
 
 
-def mod4Bits(n):
-    modTup = (n, 1, n + 1, 0)
-    index = n % 4
 
-    return modTup[index]
-
-def quickXOR(n1, n2):
-    return mod4Bits(n2) ^ mod4Bits(n1 - 1)
